@@ -1,0 +1,9 @@
+{
+    "fuel_api": {
+        "app_name": "YourAppName",
+        "api_product": "YourAPIProduct",
+        "api_key": "YourAPIKey",
+        "api_secret": "YourAPISecret",
+        "auth_header": "YourAuthHeader"
+    }
+}
