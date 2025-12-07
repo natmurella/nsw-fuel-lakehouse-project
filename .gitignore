@@ -209,9 +209,12 @@ __marimo__/
 
 # secrets / credentials
 config.json
+*.ppk
+*.pem
 
 # testing and prototyping files
 *.test.py
+data/
 
 # venv
 fuelenv/
