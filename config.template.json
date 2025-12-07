@@ -1,9 +1,18 @@
 {
     "fuel_api": {
+        "base_url": "https://api.onegov.nsw.gov.au",
+        "auth_path": "/oauth/client_credential/accesstoken",
+        "all_prices_path": "/FuelPriceCheck/v2/fuel/prices",
+        "new_prices_path": "/FuelPriceCheck/v2/fuel/prices/new",
         "app_name": "YourAppName",
         "api_product": "YourAPIProduct",
         "api_key": "YourAPIKey",
         "api_secret": "YourAPISecret",
         "auth_header": "YourAuthHeader"
+    },
+    "airflow": {
+        "s3_bucket_name": "YourBucketName",
+        "s3_prefix": "YourS3Prefix",
+        "aws_conn_id": "aws_default"
     }
 }
