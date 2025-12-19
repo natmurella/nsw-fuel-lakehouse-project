@@ -16,6 +16,7 @@ Areas of Focus:
 ## Architecture
 
 **Architecture Diagram**:
+
 ![Architecture Diagram](architecture/architecture_diagram.png)
 
 The pipeline is designed to leverage industry standard tools (Airflow, AWS, Databricks) on a minimal budget using best practices where possible.
@@ -38,12 +39,14 @@ Data Flow:
 3. Databricks dashboard visualises the gold table data
 
 **Silver Tables ERD**:
+
 ![Silver Tables ERD](architecture/silver_ERD.png)
 
 
 ## Airflow DAG
 
 **Airflow hourly DAG**:
+
 ![Airflow DAG](architecture/airflow_DAG_diagram.png)
 
 The Airflow DAG is defined in `airflow_dags/fuel_price_dag.py`. It consists of the following tasks:
@@ -55,6 +58,7 @@ The Airflow DAG is defined in `airflow_dags/fuel_price_dag.py`. It consists of t
 ## Databricks Job
 
 **Databricks Job Tasks Workflow**:
+
 ![Databricks Job Workflow](architecture/job_tasks.png)
 
 The S3_to_bronze notebook:
@@ -114,6 +118,7 @@ where rn = 1
 ## Databricks Dashboard
 
 **Databricks Dashboard**:
+
 ![Databricks Dashboard](databricks/dashboards/global_filters.png)
 ![Databricks Dashboard](databricks/dashboards/fuel_dash.png)
 ![Databricks Dashboard](databricks/dashboards/fuel_map.png)
