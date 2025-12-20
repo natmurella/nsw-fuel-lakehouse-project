@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project is to explore and demonstrate a **full end-to-end real-time data engineering pipeline** from real-world data sources. It pulls the data from an API, store and processes it, and then visualises it on a dashboard.
+This project is to explore and demonstrate a **full end-to-end real-time data engineering pipeline** from real-world data sources. It pulls the data from an API, storess and processes it, and then visualises it on a dashboard.
 
 Areas of Focus:
 - Data Orchestration with Apache Airflow
