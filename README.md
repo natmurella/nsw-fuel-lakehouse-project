@@ -1,4 +1,4 @@
-# Fuel Price Real-Time Data Pipeline
+# Fuel Price Lakehouse Data Pipeline
 
 ![Technologies](architecture/tech_stack.png)
 
